@@ -32,6 +32,10 @@ export const routes = [
         path: 'form-layouts',
         component: () => import('@/pages/form-layouts.vue'),
       },
+      {
+        path: 'envio-wpp',
+        component: () => import('@/pages/wpp.vue'),
+      },
     ],
   },
   {
